@@ -1,4 +1,4 @@
-# KiCAD Projects For RTL-SDR Coherent Receiver Projects
+# KiCAD PCBs For RTL-SDR Coherent Receiver Projects
 KiCAD projects for RTL-SDR coherency projects
 
 ## Board Descriptions
