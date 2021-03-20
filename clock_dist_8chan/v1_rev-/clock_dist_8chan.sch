@@ -1,0 +1,1210 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "8 Channel Clock Distribution Board, V1"
+Date "2021-03-14"
+Rev "-"
+Comp "Amateur Radio / Phased Arrays"
+Comment1 "Coherent RTL-SDR Projects"
+Comment2 "creativecommons.org/licenses/by/4.0/"
+Comment3 "License: CC BY 4.0"
+Comment4 "Author: Zach Leffke, KJ4QLP"
+$EndDescr
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J0
+U 1 1 604E95DA
+P 8750 1500
+F 0 "J0" H 8662 1475 60  0000 R CNN
+F 1 "Y0" H 8662 1369 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 1700 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 1800 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 1900 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 2000 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 2100 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 2200 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 2300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 2400 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 2500 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 2600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 2700 60  0001 L CNN "Status"
+	1    8750 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J1
+U 1 1 604E9D52
+P 8750 2100
+F 0 "J1" H 8662 2075 60  0000 R CNN
+F 1 "Y1" H 8662 1969 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 2300 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 2400 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 2600 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 2700 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 2800 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 2900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 3000 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 3100 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 3200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 3300 60  0001 L CNN "Status"
+	1    8750 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J2
+U 1 1 604EA397
+P 8750 2700
+F 0 "J2" H 8662 2675 60  0000 R CNN
+F 1 "Y2" H 8662 2569 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 2900 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 3000 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 3100 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 3200 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 3300 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 3400 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 3500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 3600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 3700 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 3800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 3900 60  0001 L CNN "Status"
+	1    8750 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J3
+U 1 1 604EA742
+P 8750 3300
+F 0 "J3" H 8662 3275 60  0000 R CNN
+F 1 "Y3" H 8662 3169 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 3500 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 3600 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 3700 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 3800 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 3900 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 4000 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 4100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 4200 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 4300 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 4400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 4500 60  0001 L CNN "Status"
+	1    8750 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 604EAE15
+P 8750 1700
+F 0 "#PWR01" H 8750 1450 50  0001 C CNN
+F 1 "GND" H 8755 1527 50  0000 C CNN
+F 2 "" H 8750 1700 50  0001 C CNN
+F 3 "" H 8750 1700 50  0001 C CNN
+	1    8750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 604EB1D5
+P 8750 2300
+F 0 "#PWR02" H 8750 2050 50  0001 C CNN
+F 1 "GND" H 8755 2127 50  0000 C CNN
+F 2 "" H 8750 2300 50  0001 C CNN
+F 3 "" H 8750 2300 50  0001 C CNN
+	1    8750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 604EB4AC
+P 8750 2900
+F 0 "#PWR03" H 8750 2650 50  0001 C CNN
+F 1 "GND" H 8755 2727 50  0000 C CNN
+F 2 "" H 8750 2900 50  0001 C CNN
+F 3 "" H 8750 2900 50  0001 C CNN
+	1    8750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 604EB80A
+P 8750 3500
+F 0 "#PWR04" H 8750 3250 50  0001 C CNN
+F 1 "GND" H 8755 3327 50  0000 C CNN
+F 2 "" H 8750 3500 50  0001 C CNN
+F 3 "" H 8750 3500 50  0001 C CNN
+	1    8750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J8
+U 1 1 604EBAC3
+P 2650 1800
+F 0 "J8" H 2728 2047 60  0000 C CNN
+F 1 "CLKIN" H 2728 1941 60  0000 C CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 2850 2000 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 2850 2100 60  0001 L CNN
+F 4 "WM3894CT-ND" H 2850 2200 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 2850 2300 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 2850 2400 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 2850 2500 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 2850 2600 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 2850 2700 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 2850 2800 60  0001 L CNN "Description"
+F 11 "Molex" H 2850 2900 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2850 3000 60  0001 L CNN "Status"
+	1    2650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 604ECB4E
+P 2650 2000
+F 0 "#PWR05" H 2650 1750 50  0001 C CNN
+F 1 "GND" H 2655 1827 50  0000 C CNN
+F 2 "" H 2650 2000 50  0001 C CNN
+F 3 "" H 2650 2000 50  0001 C CNN
+	1    2650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F1
+U 1 1 604EF034
+P 8000 1450
+F 0 "F1" H 8000 1665 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 1574 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 1100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 1325 50  0001 C CNN
+	1    8000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F2
+U 1 1 604EF854
+P 8000 2050
+F 0 "F2" H 8000 2265 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 2174 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 1700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 1925 50  0001 C CNN
+	1    8000 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F3
+U 1 1 604F0668
+P 8000 2650
+F 0 "F3" H 8000 2865 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 2774 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 2300 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 2525 50  0001 C CNN
+	1    8000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F4
+U 1 1 604F0C15
+P 8000 3250
+F 0 "F4" H 8000 3465 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 3374 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 2900 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 3125 50  0001 C CNN
+	1    8000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 6052745E
+P 3750 1350
+F 0 "JP1" H 3750 1555 50  0000 C CNN
+F 1 "CLKIN_FILT_BYPASS" H 3750 1464 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3750 1350 50  0001 C CNN
+F 3 "~" H 3750 1350 50  0001 C CNN
+	1    3750 1350
+	1    0    0    -1  
+$EndComp
+Text Notes 6350 6700 0    50   ~ 0
+NOTES:\n- 5PB1104 is nominal 50 Ohm input/output impedance\n- LEO Bodnar GPSDO for planned input is designed for 3.3V, 50 Ohm output square wave.
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F9
+U 1 1 605298F8
+P 3750 1750
+F 0 "F9" H 3750 1965 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 3750 1874 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 3750 1400 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 3850 1625 50  0001 C CNN
+	1    3750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 6052E495
+P 4800 2100
+F 0 "R1" V 4900 2100 50  0000 C CNN
+F 1 "100k" V 4700 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4840 2090 50  0001 C CNN
+F 3 "~" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 60546EB8
+P 5750 950
+F 0 "#PWR0101" H 5750 800 50  0001 C CNN
+F 1 "+3.3V" H 5765 1123 50  0000 C CNN
+F 2 "" H 5750 950 50  0001 C CNN
+F 3 "" H 5750 950 50  0001 C CNN
+	1    5750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 605497AF
+P 5750 2400
+F 0 "#PWR0102" H 5750 2150 50  0001 C CNN
+F 1 "GND" H 5755 2227 50  0000 C CNN
+F 2 "" H 5750 2400 50  0001 C CNN
+F 3 "" H 5750 2400 50  0001 C CNN
+	1    5750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 6054BE73
+P 4400 2100
+F 0 "#PWR0103" H 4400 1950 50  0001 C CNN
+F 1 "+3.3V" H 4415 2273 50  0000 C CNN
+F 2 "" H 4400 2100 50  0001 C CNN
+F 3 "" H 4400 2100 50  0001 C CNN
+	1    4400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6054C57B
+P 6150 1100
+F 0 "C1" V 5898 1100 50  0000 C CNN
+F 1 "0.1uF" V 5989 1100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6188 950 50  0001 C CNN
+F 3 "~" H 6150 1100 50  0001 C CNN
+	1    6150 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60553041
+P 6500 1100
+F 0 "#PWR0104" H 6500 850 50  0001 C CNN
+F 1 "GND" H 6505 927 50  0000 C CNN
+F 2 "" H 6500 1100 50  0001 C CNN
+F 3 "" H 6500 1100 50  0001 C CNN
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP_3v3
+U 1 1 60556D1E
+P 1150 2300
+F 0 "TP_3v3" V 1104 2488 50  0000 L CNN
+F 1 "TestPoint" V 1195 2488 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1350 2300 50  0001 C CNN
+F 3 "~" H 1350 2300 50  0001 C CNN
+	1    1150 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 1500 7650 1500
+Wire Wire Line
+	6150 1600 7300 1600
+Wire Wire Line
+	7300 1600 7300 2100
+Wire Wire Line
+	7300 2100 7650 2100
+Wire Wire Line
+	6150 1700 7200 1700
+Wire Wire Line
+	7200 1700 7200 2700
+Wire Wire Line
+	7200 2700 7650 2700
+Wire Wire Line
+	6150 1800 7100 1800
+Wire Wire Line
+	7100 1800 7100 3300
+Wire Wire Line
+	7100 3300 7650 3300
+Wire Wire Line
+	5750 950  5750 1100
+Wire Wire Line
+	6000 1100 5750 1100
+Connection ~ 5750 1100
+Wire Wire Line
+	5750 1100 5750 1300
+Wire Wire Line
+	6300 1100 6500 1100
+Wire Wire Line
+	4650 2100 4400 2100
+Wire Wire Line
+	4100 1800 4300 1800
+Wire Wire Line
+	3400 1800 3200 1800
+$Comp
+L power:GND #PWR0105
+U 1 1 60572AB5
+P 3400 1950
+F 0 "#PWR0105" H 3400 1700 50  0001 C CNN
+F 1 "GND" H 3405 1777 50  0000 C CNN
+F 2 "" H 3400 1950 50  0001 C CNN
+F 3 "" H 3400 1950 50  0001 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60572FBB
+P 7650 1650
+F 0 "#PWR0106" H 7650 1400 50  0001 C CNN
+F 1 "GND" H 7655 1477 50  0000 C CNN
+F 2 "" H 7650 1650 50  0001 C CNN
+F 3 "" H 7650 1650 50  0001 C CNN
+	1    7650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 6057346B
+P 7650 2250
+F 0 "#PWR0107" H 7650 2000 50  0001 C CNN
+F 1 "GND" H 7655 2077 50  0000 C CNN
+F 2 "" H 7650 2250 50  0001 C CNN
+F 3 "" H 7650 2250 50  0001 C CNN
+	1    7650 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 60573898
+P 7650 2850
+F 0 "#PWR0108" H 7650 2600 50  0001 C CNN
+F 1 "GND" H 7655 2677 50  0000 C CNN
+F 2 "" H 7650 2850 50  0001 C CNN
+F 3 "" H 7650 2850 50  0001 C CNN
+	1    7650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60573CAF
+P 7650 3450
+F 0 "#PWR0109" H 7650 3200 50  0001 C CNN
+F 1 "GND" H 7655 3277 50  0000 C CNN
+F 2 "" H 7650 3450 50  0001 C CNN
+F 3 "" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1500 8500 1500
+Wire Wire Line
+	8350 2100 8500 2100
+Wire Wire Line
+	8550 2700 8500 2700
+Wire Wire Line
+	8350 3300 8500 3300
+$Comp
+L power:+3.3V #PWR0110
+U 1 1 60575BAA
+P 1150 2300
+F 0 "#PWR0110" H 1150 2150 50  0001 C CNN
+F 1 "+3.3V" H 1165 2473 50  0000 C CNN
+F 2 "" H 1150 2300 50  0001 C CNN
+F 3 "" H 1150 2300 50  0001 C CNN
+	1    1150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP_GND1
+U 1 1 60576219
+P 1150 2500
+F 0 "TP_GND1" V 1104 2688 50  0000 L CNN
+F 1 "TestPoint" V 1195 2688 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1350 2500 50  0001 C CNN
+F 3 "~" H 1350 2500 50  0001 C CNN
+	1    1150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 605767A5
+P 1150 2500
+F 0 "#PWR0111" H 1150 2250 50  0001 C CNN
+F 1 "GND" H 1155 2327 50  0000 C CNN
+F 2 "" H 1150 2500 50  0001 C CNN
+F 3 "" H 1150 2500 50  0001 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1350 3200 1350
+Wire Wire Line
+	3200 1350 3200 1800
+Connection ~ 3200 1800
+Wire Wire Line
+	3200 1800 2850 1800
+Wire Wire Line
+	3900 1350 4300 1350
+Wire Wire Line
+	4300 1350 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4300 1800 4600 1800
+Text Label 6300 1500 0    50   ~ 0
+Y0
+Text Label 6300 1600 0    50   ~ 0
+Y1
+Text Label 6300 1700 0    50   ~ 0
+Y2
+Text Label 6300 1800 0    50   ~ 0
+Y3
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 605D3AEF
+P 9350 3000
+F 0 "H1" H 9450 3049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9450 2958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9350 3000 50  0001 C CNN
+F 3 "~" H 9350 3000 50  0001 C CNN
+	1    9350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 605D9465
+P 9350 3100
+F 0 "#PWR0112" H 9350 2850 50  0001 C CNN
+F 1 "GND" H 9355 2927 50  0000 C CNN
+F 2 "" H 9350 3100 50  0001 C CNN
+F 3 "" H 9350 3100 50  0001 C CNN
+	1    9350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP0
+U 1 1 605DEE69
+P 8500 1500
+F 0 "TP0" H 8558 1618 50  0000 L CNN
+F 1 "TestPoint" H 8558 1527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 1500 50  0001 C CNN
+F 3 "~" H 8700 1500 50  0001 C CNN
+	1    8500 1500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 1500
+Wire Wire Line
+	8500 1500 8550 1500
+$Comp
+L Connector:TestPoint TP1
+U 1 1 605E3F58
+P 8500 2100
+F 0 "TP1" H 8558 2218 50  0000 L CNN
+F 1 "TestPoint" H 8558 2127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 2100 50  0001 C CNN
+F 3 "~" H 8700 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 2100
+Wire Wire Line
+	8500 2100 8550 2100
+$Comp
+L Connector:TestPoint TP2
+U 1 1 605E44A3
+P 8500 2700
+F 0 "TP2" H 8558 2818 50  0000 L CNN
+F 1 "TestPoint" H 8558 2727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 2700 50  0001 C CNN
+F 3 "~" H 8700 2700 50  0001 C CNN
+	1    8500 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 2700
+Wire Wire Line
+	8500 2700 8350 2700
+$Comp
+L Connector:TestPoint TP3
+U 1 1 605E52D8
+P 8500 3300
+F 0 "TP3" H 8558 3418 50  0000 L CNN
+F 1 "TestPoint" H 8558 3327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 3300 50  0001 C CNN
+F 3 "~" H 8700 3300 50  0001 C CNN
+	1    8500 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 3300
+Wire Wire Line
+	8500 3300 8550 3300
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60620102
+P 9350 3500
+F 0 "H2" H 9450 3549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9450 3458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9350 3500 50  0001 C CNN
+F 3 "~" H 9350 3500 50  0001 C CNN
+	1    9350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 606206D8
+P 9350 3600
+F 0 "#PWR06" H 9350 3350 50  0001 C CNN
+F 1 "GND" H 9355 3427 50  0000 C CNN
+F 2 "" H 9350 3600 50  0001 C CNN
+F 3 "" H 9350 3600 50  0001 C CNN
+	1    9350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6067FEEA
+P 9350 4000
+F 0 "H3" H 9450 4049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9450 3958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9350 4000 50  0001 C CNN
+F 3 "~" H 9350 4000 50  0001 C CNN
+	1    9350 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 6067FEF0
+P 9350 4100
+F 0 "#PWR07" H 9350 3850 50  0001 C CNN
+F 1 "GND" H 9355 3927 50  0000 C CNN
+F 2 "" H 9350 4100 50  0001 C CNN
+F 3 "" H 9350 4100 50  0001 C CNN
+	1    9350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 606810EE
+P 9350 4500
+F 0 "H4" H 9450 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9450 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 9350 4500 50  0001 C CNN
+F 3 "~" H 9350 4500 50  0001 C CNN
+	1    9350 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 606810F4
+P 9350 4600
+F 0 "#PWR08" H 9350 4350 50  0001 C CNN
+F 1 "GND" H 9355 4427 50  0000 C CNN
+F 2 "" H 9350 4600 50  0001 C CNN
+F 3 "" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 607368DA
+P 2800 3600
+F 0 "R2" H 2900 3650 50  0000 C CNN
+F 1 "100k" H 2950 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2840 3590 50  0001 C CNN
+F 3 "~" H 2800 3600 50  0001 C CNN
+	1    2800 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60736EE7
+P 2400 3600
+F 0 "C3" H 2515 3646 50  0000 L CNN
+F 1 "0.1uF" H 2515 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2438 3450 50  0001 C CNN
+F 3 "~" H 2400 3600 50  0001 C CNN
+	1    2400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 6073794A
+P 2050 3600
+F 0 "C2" H 2165 3646 50  0000 L CNN
+F 1 "1uF" H 2165 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2088 3450 50  0001 C CNN
+F 3 "~" H 2050 3600 50  0001 C CNN
+	1    2050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60740E78
+P 3550 3850
+F 0 "#PWR013" H 3550 3600 50  0001 C CNN
+F 1 "GND" H 3555 3677 50  0000 C CNN
+F 2 "" H 3550 3850 50  0001 C CNN
+F 3 "" H 3550 3850 50  0001 C CNN
+	1    3550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 607414AD
+P 2400 3750
+F 0 "#PWR012" H 2400 3500 50  0001 C CNN
+F 1 "GND" H 2405 3577 50  0000 C CNN
+F 2 "" H 2400 3750 50  0001 C CNN
+F 3 "" H 2400 3750 50  0001 C CNN
+	1    2400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 60741995
+P 2050 3750
+F 0 "#PWR011" H 2050 3500 50  0001 C CNN
+F 1 "GND" H 2055 3577 50  0000 C CNN
+F 2 "" H 2050 3750 50  0001 C CNN
+F 3 "" H 2050 3750 50  0001 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3450 2800 3450
+Wire Wire Line
+	2800 3450 2400 3450
+Connection ~ 2800 3450
+Wire Wire Line
+	2400 3450 2050 3450
+Connection ~ 2400 3450
+Wire Wire Line
+	3150 3550 3100 3550
+Wire Wire Line
+	3100 3550 3100 3750
+Wire Wire Line
+	3100 3750 2800 3750
+$Comp
+L Device:C C4
+U 1 1 60745109
+P 4050 3700
+F 0 "C4" H 4165 3746 50  0000 L CNN
+F 1 "0.1uF" H 4165 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4088 3550 50  0001 C CNN
+F 3 "~" H 4050 3700 50  0001 C CNN
+	1    4050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6074593D
+P 4450 3600
+F 0 "C5" H 4565 3646 50  0000 L CNN
+F 1 "10uF" H 4565 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4488 3450 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60746049
+P 4900 3600
+F 0 "C6" H 5015 3646 50  0000 L CNN
+F 1 "0.1uF" H 5015 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4938 3450 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3450 4450 3450
+Wire Wire Line
+	4450 3450 4900 3450
+Connection ~ 4450 3450
+Wire Wire Line
+	3950 3550 4050 3550
+$Comp
+L power:GND #PWR014
+U 1 1 607496C9
+P 4050 3850
+F 0 "#PWR014" H 4050 3600 50  0001 C CNN
+F 1 "GND" H 4055 3677 50  0000 C CNN
+F 2 "" H 4050 3850 50  0001 C CNN
+F 3 "" H 4050 3850 50  0001 C CNN
+	1    4050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 60749E18
+P 4450 3750
+F 0 "#PWR015" H 4450 3500 50  0001 C CNN
+F 1 "GND" H 4455 3577 50  0000 C CNN
+F 2 "" H 4450 3750 50  0001 C CNN
+F 3 "" H 4450 3750 50  0001 C CNN
+	1    4450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 6074A1F7
+P 4900 3750
+F 0 "#PWR016" H 4900 3500 50  0001 C CNN
+F 1 "GND" H 4905 3577 50  0000 C CNN
+F 2 "" H 4900 3750 50  0001 C CNN
+F 3 "" H 4900 3750 50  0001 C CNN
+	1    4900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 6074B38A
+P 1650 3450
+F 0 "TP9" V 1700 3850 50  0000 C CNN
+F 1 "TestPoint" V 1600 3850 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1850 3450 50  0001 C CNN
+F 3 "~" H 1850 3450 50  0001 C CNN
+	1    1650 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 3450 2050 3450
+Connection ~ 2050 3450
+$Comp
+L power:+12V #PWR010
+U 1 1 6074DC4B
+P 2050 3350
+F 0 "#PWR010" H 2050 3200 50  0001 C CNN
+F 1 "+12V" H 2065 3523 50  0000 C CNN
+F 2 "" H 2050 3350 50  0001 C CNN
+F 3 "" H 2050 3350 50  0001 C CNN
+	1    2050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3350 2050 3450
+$Comp
+L power:GND #PWR09
+U 1 1 607503B1
+P 1750 3750
+F 0 "#PWR09" H 1750 3500 50  0001 C CNN
+F 1 "GND" H 1755 3577 50  0000 C CNN
+F 2 "" H 1750 3750 50  0001 C CNN
+F 3 "" H 1750 3750 50  0001 C CNN
+	1    1750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 607509CC
+P 1650 3650
+F 0 "TP10" V 1700 4050 50  0000 C CNN
+F 1 "TestPoint" V 1600 4050 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1850 3650 50  0001 C CNN
+F 3 "~" H 1850 3650 50  0001 C CNN
+	1    1650 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 3650 1750 3650
+Wire Wire Line
+	1750 3650 1750 3750
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 607555FF
+P 5200 3450
+F 0 "JP2" H 5200 3655 50  0000 C CNN
+F 1 "VREG" H 5200 3564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5200 3450 50  0001 C CNN
+F 3 "~" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR017
+U 1 1 60755DE4
+P 5450 3350
+F 0 "#PWR017" H 5450 3200 50  0001 C CNN
+F 1 "+3.3V" H 5465 3523 50  0000 C CNN
+F 2 "" H 5450 3350 50  0001 C CNN
+F 3 "" H 5450 3350 50  0001 C CNN
+	1    5450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3450 5050 3450
+Connection ~ 4900 3450
+Wire Wire Line
+	5350 3450 5450 3450
+Wire Wire Line
+	5450 3450 5450 3350
+$Comp
+L Connector:TestPoint TP11
+U 1 1 607A9E24
+P 4600 1800
+F 0 "TP11" H 4658 1918 50  0000 L CNN
+F 1 "TestPoint" H 4658 1827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4800 1800 50  0001 C CNN
+F 3 "~" H 4800 1800 50  0001 C CNN
+	1    4600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 607C7AA9
+P 2800 3750
+F 0 "TP12" V 2850 4150 50  0000 C CNN
+F 1 "TestPoint" V 2750 4150 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 3000 3750 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+	1    2800 3750
+	-1   0    0    1   
+$EndComp
+Connection ~ 2800 3750
+$Comp
+L Interface:5PB1108PGxx U1
+U 1 1 60547357
+P 5750 1900
+F 0 "U1" H 5550 2450 50  0000 C CNN
+F 1 "5PB1108PGxx" H 6050 2450 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 1200 50  0001 C CNN
+F 3 "https://www.idt.com/document/dst/5pb11xx-datasheet" H 3350 2500 50  0001 C CNN
+	1    5750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J4
+U 1 1 60592FD2
+P 8750 3900
+F 0 "J4" H 8662 3875 60  0000 R CNN
+F 1 "Y4" H 8662 3769 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 4100 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 4200 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 4300 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 4400 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 4500 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 4600 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 4700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 4800 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 4900 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 5000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 5100 60  0001 L CNN "Status"
+	1    8750 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J5
+U 1 1 60592FE1
+P 8750 4500
+F 0 "J5" H 8662 4475 60  0000 R CNN
+F 1 "Y1" H 8662 4369 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 4700 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 4800 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 5000 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 5100 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 5200 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 5500 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 5700 60  0001 L CNN "Status"
+	1    8750 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J6
+U 1 1 60592FF0
+P 8750 5100
+F 0 "J6" H 8662 5075 60  0000 R CNN
+F 1 "Y2" H 8662 4969 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 5300 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 5400 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 5500 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 5600 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 5700 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 5800 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 5900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 6000 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 6100 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 6200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 6300 60  0001 L CNN "Status"
+	1    8750 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:0734120114 J7
+U 1 1 60592FFF
+P 8750 5700
+F 0 "J7" H 8662 5675 60  0000 R CNN
+F 1 "Y3" H 8662 5569 60  0000 R CNN
+F 2 "digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical" H 8950 5900 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 6000 60  0001 L CNN
+F 4 "WM3894CT-ND" H 8950 6100 60  0001 L CNN "Digi-Key_PN"
+F 5 "0734120114" H 8950 6200 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 8950 6300 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 8950 6400 60  0001 L CNN "Family"
+F 8 "https://www.molex.com/pdm_docs/sd/734120110_sd.pdf" H 8950 6500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/molex/0734120114/WM3894CT-ND/2421931" H 8950 6600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN UMC RCPT STR 50 OHM SMD" H 8950 6700 60  0001 L CNN "Description"
+F 11 "Molex" H 8950 6800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8950 6900 60  0001 L CNN "Status"
+	1    8750 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 60593005
+P 8750 4100
+F 0 "#PWR022" H 8750 3850 50  0001 C CNN
+F 1 "GND" H 8755 3927 50  0000 C CNN
+F 2 "" H 8750 4100 50  0001 C CNN
+F 3 "" H 8750 4100 50  0001 C CNN
+	1    8750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6059300B
+P 8750 4700
+F 0 "#PWR023" H 8750 4450 50  0001 C CNN
+F 1 "GND" H 8755 4527 50  0000 C CNN
+F 2 "" H 8750 4700 50  0001 C CNN
+F 3 "" H 8750 4700 50  0001 C CNN
+	1    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 60593011
+P 8750 5300
+F 0 "#PWR024" H 8750 5050 50  0001 C CNN
+F 1 "GND" H 8755 5127 50  0000 C CNN
+F 2 "" H 8750 5300 50  0001 C CNN
+F 3 "" H 8750 5300 50  0001 C CNN
+	1    8750 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 60593017
+P 8750 5900
+F 0 "#PWR025" H 8750 5650 50  0001 C CNN
+F 1 "GND" H 8755 5727 50  0000 C CNN
+F 2 "" H 8750 5900 50  0001 C CNN
+F 3 "" H 8750 5900 50  0001 C CNN
+	1    8750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F5
+U 1 1 6059301D
+P 8000 3850
+F 0 "F5" H 8000 4065 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 3974 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 3500 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 3725 50  0001 C CNN
+	1    8000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F6
+U 1 1 60593023
+P 8000 4450
+F 0 "F6" H 8000 4665 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 4574 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 4100 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 4325 50  0001 C CNN
+	1    8000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F7
+U 1 1 60593029
+P 8000 5050
+F 0 "F7" H 8000 5265 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 5174 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 4700 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 4925 50  0001 C CNN
+	1    8000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_KJ4QLP:MEM2012S35R0T001 F8
+U 1 1 6059302F
+P 8000 5650
+F 0 "F8" H 8000 5865 50  0000 C CNN
+F 1 "MEM2012S35R0T001" H 8000 5774 50  0000 C CNN
+F 2 "kj4qlp:0805_3PC_Pad" H 8000 5300 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf" H 8100 5525 50  0001 C CNN
+	1    8000 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6059303D
+P 7650 4050
+F 0 "#PWR018" H 7650 3800 50  0001 C CNN
+F 1 "GND" H 7655 3877 50  0000 C CNN
+F 2 "" H 7650 4050 50  0001 C CNN
+F 3 "" H 7650 4050 50  0001 C CNN
+	1    7650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 60593043
+P 7650 4650
+F 0 "#PWR019" H 7650 4400 50  0001 C CNN
+F 1 "GND" H 7655 4477 50  0000 C CNN
+F 2 "" H 7650 4650 50  0001 C CNN
+F 3 "" H 7650 4650 50  0001 C CNN
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 60593049
+P 7650 5250
+F 0 "#PWR020" H 7650 5000 50  0001 C CNN
+F 1 "GND" H 7655 5077 50  0000 C CNN
+F 2 "" H 7650 5250 50  0001 C CNN
+F 3 "" H 7650 5250 50  0001 C CNN
+	1    7650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 6059304F
+P 7650 5850
+F 0 "#PWR021" H 7650 5600 50  0001 C CNN
+F 1 "GND" H 7655 5677 50  0000 C CNN
+F 2 "" H 7650 5850 50  0001 C CNN
+F 3 "" H 7650 5850 50  0001 C CNN
+	1    7650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3900 8500 3900
+Wire Wire Line
+	8350 4500 8500 4500
+Wire Wire Line
+	8550 5100 8500 5100
+Wire Wire Line
+	8350 5700 8500 5700
+$Comp
+L Connector:TestPoint TP4
+U 1 1 60593059
+P 8500 3900
+F 0 "TP4" H 8558 4018 50  0000 L CNN
+F 1 "TestPoint" H 8558 3927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 3900 50  0001 C CNN
+F 3 "~" H 8700 3900 50  0001 C CNN
+	1    8500 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 3900
+Wire Wire Line
+	8500 3900 8550 3900
+$Comp
+L Connector:TestPoint TP5
+U 1 1 60593061
+P 8500 4500
+F 0 "TP5" H 8558 4618 50  0000 L CNN
+F 1 "TestPoint" H 8558 4527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 4500 50  0001 C CNN
+F 3 "~" H 8700 4500 50  0001 C CNN
+	1    8500 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 4500
+Wire Wire Line
+	8500 4500 8550 4500
+$Comp
+L Connector:TestPoint TP6
+U 1 1 60593069
+P 8500 5100
+F 0 "TP6" H 8558 5218 50  0000 L CNN
+F 1 "TestPoint" H 8558 5127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 5100 50  0001 C CNN
+F 3 "~" H 8700 5100 50  0001 C CNN
+	1    8500 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 5100
+Wire Wire Line
+	8500 5100 8350 5100
+$Comp
+L Connector:TestPoint TP7
+U 1 1 60593071
+P 8500 5700
+F 0 "TP7" H 8558 5818 50  0000 L CNN
+F 1 "TestPoint" H 8558 5727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8700 5700 50  0001 C CNN
+F 3 "~" H 8700 5700 50  0001 C CNN
+	1    8500 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 5700
+Wire Wire Line
+	8500 5700 8550 5700
+Wire Wire Line
+	6150 1900 7000 1900
+Wire Wire Line
+	7000 1900 7000 3900
+Wire Wire Line
+	7000 3900 7650 3900
+Wire Wire Line
+	6150 2000 6900 2000
+Wire Wire Line
+	6900 2000 6900 4500
+Wire Wire Line
+	6900 4500 7650 4500
+Wire Wire Line
+	6150 2100 6800 2100
+Wire Wire Line
+	6800 2100 6800 5100
+Wire Wire Line
+	6800 5100 7650 5100
+Wire Wire Line
+	6150 2200 6700 2200
+Wire Wire Line
+	6700 2200 6700 5700
+Wire Wire Line
+	6700 5700 7650 5700
+Wire Wire Line
+	5350 1800 4600 1800
+Connection ~ 4600 1800
+Wire Wire Line
+	5350 2000 5100 2000
+Wire Wire Line
+	5100 2000 5100 2100
+Wire Wire Line
+	5100 2100 4950 2100
+Text Label 6300 1900 0    50   ~ 0
+Y4
+Text Label 6300 2000 0    50   ~ 0
+Y5
+Text Label 6300 2100 0    50   ~ 0
+Y6
+Text Label 6300 2200 0    50   ~ 0
+Y7
+$Comp
+L Regulator_Linear:LP2985-3.3 U2
+U 1 1 60537682
+P 3550 3550
+F 0 "U2" H 3550 3892 50  0000 C CNN
+F 1 "LP2985-3.3" H 3550 3801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3550 3875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 3550 3550 50  0001 C CNN
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
