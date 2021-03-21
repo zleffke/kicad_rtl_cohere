@@ -4,7 +4,10 @@ KiCAD projects for RTL-SDR coherency projects
 ## Board Descriptions
 | Board | Description |
 | --- | --- |
+| clk_dist_4chan | 4 channel clock distribution |
+| clk_dist_8chan | 8 channel clock distribution |
 | external_clock | External clock interface to RTL-SDR V3 header |
+| rf_split | 4 channel rf splitter for calibration noise distribution, two versions |
 
 ### Credit where its due!
 This project is heavily inspired by the awesome work at [coherent-receiver.com](https://coherent-receiver.com).
