@@ -12,8 +12,8 @@
 - Active 4 channel noise distribution.
 - BGA2815 RF amplifier from NXP (first time trying).
 
-### Version 2 - Miniciruits splitter
-- Nearly identical to Version 1, but based on cascaded miniciruits TCP-2-25X+ rf splitter.
+### Version 2 - Minicircuits splitter
+- Nearly identical to Version 1, but based on cascaded minicircuits [TCP-2-25X+](https://www.minicircuits.com/WebStore/dashboard.html?model=TCP-2-25X%2B) rf splitter.
 - Active 4 channel noise distribution.
 - BGA2815 RF amplifier from NXP (first time trying).
 
