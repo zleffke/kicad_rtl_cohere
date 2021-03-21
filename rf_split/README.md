@@ -1,4 +1,4 @@
-# RF Splitter Board Designs
+# Active RF Splitter Board Designs
 - Primary use: distributing noise calibration source
 - Given primary use, must try to control amplitude and phase to be equal on all outputs.
 - Active because we are using RF amplifiers to overcome splitter losses.
