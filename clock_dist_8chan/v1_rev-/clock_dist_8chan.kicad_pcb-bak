@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 27)
     (tracks 1185)
     (zones 0)
     (modules 48)
@@ -1748,7 +1748,10 @@
     )
   )
 
-  (gr_text "8 Channel Clock Distribution, v1, rev-" (at 135.89 75.565) (layer F.SilkS) (tstamp 6055A702)
+  (gr_line (start 151.765 74.295) (end 152.4 73.66) (layer F.SilkS) (width 0.2032))
+  (gr_line (start 114.935 74.295) (end 151.765 74.295) (layer F.SilkS) (width 0.2032))
+  (gr_line (start 114.3 73.66) (end 114.935 74.295) (layer F.SilkS) (width 0.2032))
+  (gr_text "8 Channel Clock Output" (at 133.35 75.565) (layer F.SilkS) (tstamp 6055A702)
     (effects (font (size 1.143 1.143) (thickness 0.2032)))
   )
   (gr_text "KJ4QLP, 20210314" (at 145.415 90.17) (layer F.SilkS) (tstamp 6055A5F1)
