@@ -5,10 +5,15 @@
   
 ## Board Versions
 
-### Version 1
+### Version 1 - Wye splitter
 - based on 4-way Wye resistive splitter configuration
   - wye splitter is lossy, burns up half the power in the resistors.
   - 12dB loss from splitter input to output (for 4 channel).
+- Active 4 channel noise distribution.
+- BGA2815 RF amplifier from NXP (first time trying).
+
+### Version 2 - Miniciruits splitter
+- Nearly identical to Version 1, but based on cascaded miniciruits TCP-2-25X+ rf splitter.
 - Active 4 channel noise distribution.
 - BGA2815 RF amplifier from NXP (first time trying).
 
