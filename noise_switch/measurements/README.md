@@ -1,14 +1,14 @@
 # Noise Switch RF Measurements
-- V2, Rev- Board
-- MASWSS0176 Reflective RFIC switch
-- 1 kOhm Pull up resistors
 - Keysight N9926A Vector Network Analyzer
 - Full Calibration prior to measurements
 - NoSwRefl_State.sta -> Network Analyzer State
 - Measurement Range: 500kHz - 3.0 GHz
 
 ## Folder: v2_rev-_refl_NoShield
-No Shield on PCB
+- V2, Rev- Board
+- MASWSS0176 Reflective RFIC switch
+- 1 kOhm Pull up resistors
+- No Shield on PCB
 
 1st Set of measurements: 
 - Port 1 connected to Antenna Port
