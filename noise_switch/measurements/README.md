@@ -7,7 +7,9 @@
 - NoSwRefl_State.sta -> Network Analyzer State
 - Measurement Range: 500kHz - 3.0 GHz
 
-## Measurement Conditions
+## Folder: v2_rev-_refl_NoShield
+No Shield on PCB
+
 1st Set of measurements: 
 - Port 1 connected to Antenna Port
 - Port 2 Connected to Receiver Port
