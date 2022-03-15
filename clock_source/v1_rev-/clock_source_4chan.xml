@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/zleffke/github/zleffke/kicad/rtl-sdr/kicad_rtl_cohere/clock_source/v1_rev-/clock_source_4chan.sch</source>
+    <date>Sat 12 Mar 2022 01:59:00 PM EST</date>
+    <tool>Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>4 Channel Clock Source Board, V1</title>
+        <company>Amateur Radio / Phased Arrays</company>
+        <rev>-</rev>
+        <date>2022-03-04</date>
+        <source>clock_source_4chan.sch</source>
+        <comment number="1" value="Coherent RTL-SDR Projects"/>
+        <comment number="2" value="creativecommons.org/licenses/by/4.0/"/>
+        <comment number="3" value="License: CC BY 4.0"/>
+        <comment number="4" value="Author: Zach Leffke, KJ4QLP"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>5PB1104PGxx</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <datasheet>https://www.idt.com/document/dst/5pb11xx-datasheet</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="5PB1104PGxx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E8286</tstamp>
+    </comp>
+    <comp ref="J0">
+      <value>Y0</value>
+      <footprint>digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0734120114/WM3894CT-ND/2421931</field>
+        <field name="Description">CONN UMC RCPT STR 50 OHM SMD</field>
+        <field name="Digi-Key_PN">WM3894CT-ND</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="MPN">0734120114</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="0734120114" description="CONN UMC RCPT STR 50 OHM SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E95DA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Y1</value>
+      <footprint>digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0734120114/WM3894CT-ND/2421931</field>
+        <field name="Description">CONN UMC RCPT STR 50 OHM SMD</field>
+        <field name="Digi-Key_PN">WM3894CT-ND</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="MPN">0734120114</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="0734120114" description="CONN UMC RCPT STR 50 OHM SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604E9D52</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Y2</value>
+      <footprint>digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0734120114/WM3894CT-ND/2421931</field>
+        <field name="Description">CONN UMC RCPT STR 50 OHM SMD</field>
+        <field name="Digi-Key_PN">WM3894CT-ND</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="MPN">0734120114</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="0734120114" description="CONN UMC RCPT STR 50 OHM SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604EA397</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Y3</value>
+      <footprint>digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0734120114/WM3894CT-ND/2421931</field>
+        <field name="Description">CONN UMC RCPT STR 50 OHM SMD</field>
+        <field name="Digi-Key_PN">WM3894CT-ND</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="MPN">0734120114</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Coaxial-Connectors-RF" part="0734120114" description="CONN UMC RCPT STR 50 OHM SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604EA742</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>MEM2012S35R0T001</value>
+      <footprint>kj4qlp:0805_3PC_Pad</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="MEM2012S35R0T001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604EF034</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>MEM2012S35R0T001</value>
+      <footprint>kj4qlp:0805_3PC_Pad</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="MEM2012S35R0T001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604EF854</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>MEM2012S35R0T001</value>
+      <footprint>kj4qlp:0805_3PC_Pad</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="MEM2012S35R0T001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604F0668</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>MEM2012S35R0T001</value>
+      <footprint>kj4qlp:0805_3PC_Pad</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="MEM2012S35R0T001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604F0C15</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>CLKIN_FILT_BYPASS</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052745E</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>MEM2012S35R0T001</value>
+      <footprint>kj4qlp:0805_3PC_Pad</footprint>
+      <datasheet>https://product.tdk.com/info/en/catalog/datasheets/3tf_commercial_signal_mem2012s_en.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="MEM2012S35R0T001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605298F8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6052E495</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054C57B</tstamp>
+    </comp>
+    <comp ref="TP_3v3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60556D1E</tstamp>
+    </comp>
+    <comp ref="TP_GND1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60576219</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605D3AEF</tstamp>
+    </comp>
+    <comp ref="TP0">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605DEE69</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E3F58</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E44A3</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>605E52D8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60620102</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6067FEEA</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad_Via</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606810EE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SPX3819M5-L-3-3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.exar.com/content/document.ashx?id=22106&amp;languageid=1033&amp;type=Datasheet&amp;partnumber=SPX3819&amp;filename=SPX3819.pdf&amp;part=SPX3819</datasheet>
+      <libsource lib="Regulator_Linear" part="SPX3819M5-L-3-3" description="500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F24CF</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607368DA</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60736EE7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073794A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60745109</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074593D</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60746049</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6074B38A</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607509CC</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>VREG</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607555FF</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607C7AA9</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>TCXO_B31</value>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
+      <datasheet>http://www.conwin.com/datasheets/tx/tx415.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="TCXO_B31" description="Connor-Winfield B31 is a 2.5 x 2.0mm, 3.3 V Clipped Sinewave, Surface Mount, Temperature Compensated Crystal Oscillator (TCXO)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6221DEE2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.01uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6221F7AB</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62220445</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62220D1C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622217D4</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6222260B</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC2G14DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf</datasheet>
+      <libsource lib="kicad_KJ4QLP" part="SN74LVC2G14DBV" description="Single Schmitt-Trigger Inverter, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6225C61F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623DA619</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624D1632</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP131-15">
+      <aliases>
+        <alias>AP131-18</alias>
+        <alias>AP131-20</alias>
+        <alias>AP131-25</alias>
+        <alias>AP131-28</alias>
+        <alias>AP131-29</alias>
+        <alias>AP131-30</alias>
+        <alias>AP131-33</alias>
+        <alias>AP131-35</alias>
+        <alias>MIC5205-2.5YM5</alias>
+        <alias>MIC5205-2.7YM5</alias>
+        <alias>MIC5205-2.8YM5</alias>
+        <alias>MIC5205-2.85YM5</alias>
+        <alias>MIC5205-2.9YM5</alias>
+        <alias>MIC5205-3.0YM5</alias>
+        <alias>MIC5205-3.1YM5</alias>
+        <alias>MIC5205-3.2YM5</alias>
+        <alias>MIC5205-3.3YM5</alias>
+        <alias>MIC5205-3.6YM5</alias>
+        <alias>MIC5205-3.8YM5</alias>
+        <alias>MIC5205-4.0YM5</alias>
+        <alias>MIC5205-5.0YM5</alias>
+        <alias>MIC5219-2.5YM5</alias>
+        <alias>MIC5219-2.6YM5</alias>
+        <alias>MIC5219-2.7YM5</alias>
+        <alias>MIC5219-2.8YM5</alias>
+        <alias>MIC5219-2.85YM5</alias>
+        <alias>MIC5219-2.9YM5</alias>
+        <alias>MIC5219-3.0YM5</alias>
+        <alias>MIC5219-3.1YM5</alias>
+        <alias>MIC5219-3.3YM5</alias>
+        <alias>MIC5219-3.6YM5</alias>
+        <alias>MIC5219-5.0YM5</alias>
+        <alias>SPX3819M5-L-1-2</alias>
+        <alias>SPX3819M5-L-1-5</alias>
+        <alias>SPX3819M5-L-1-8</alias>
+        <alias>SPX3819M5-L-2-5</alias>
+        <alias>SPX3819M5-L-3-0</alias>
+        <alias>SPX3819M5-L-3-3</alias>
+        <alias>SPX3819M5-L-5-0</alias>
+      </aliases>
+      <description>300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5</description>
+      <docs>http://www.diodes.com/_files/datasheets/AP131.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP131-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Coaxial-Connectors-RF" part="0734120114">
+      <description>CONN UMC RCPT STR 50 OHM SMD</description>
+      <docs>https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">0734120114</field>
+        <field name="Footprint">digikey-footprints:Molex_734120114_UMC_RF_CONN_Vertical</field>
+        <field name="Datasheet">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="Digi-Key_PN">WM3894CT-ND</field>
+        <field name="MPN">0734120114</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Coaxial Connectors (RF)</field>
+        <field name="DK_Datasheet_Link">https://www.molex.com/pdm_docs/sd/734120110_sd.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/molex/0734120114/WM3894CT-ND/2421931</field>
+        <field name="Description">CONN UMC RCPT STR 50 OHM SMD</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_KJ4QLP" part="5PB1104PGxx">
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">5PB1104PGxx</field>
+        <field name="Footprint">Package_SO:TSSOP-8_4.4x3mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CLKIN" type="input"/>
+        <pin num="2" name="1G" type="input"/>
+        <pin num="3" name="Y0" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Y2" type="output"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="Y3" type="output"/>
+        <pin num="8" name="Y1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_KJ4QLP" part="MEM2012S35R0T001">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">MEM2012S35R0T001</field>
+        <field name="Footprint">kj4qlp:0805_3PC_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="gnd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_KJ4QLP" part="SN74LVC2G14DBV">
+      <description>Single Schmitt-Trigger Inverter, SOT-23</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lvc2g14.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G14DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="~" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="kicad_KJ4QLP" part="TCXO_B31">
+      <description>Connor-Winfield B31 is a 2.5 x 2.0mm, 3.3 V Clipped Sinewave, Surface Mount, Temperature Compensated Crystal Oscillator (TCXO)</description>
+      <docs>http://www.conwin.com/datasheets/tx/tx415.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">TCXO_B31</field>
+        <field name="Footprint">Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="N/C" type="NotConnected"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="Y0" type="output"/>
+        <pin num="4" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/library/Jumper.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="dk_Coaxial-Connectors-RF">
+      <uri>/home/zleffke/github/public/kicad/digikey-kicad-library/digikey-symbols/dk_Coaxial-Connectors-RF.lib</uri>
+    </library>
+    <library logical="kicad_KJ4QLP">
+      <uri>/home/zleffke/github/zleffke/kicad/kicad_libraries/kicad_KJ4QLP.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="4"/>
+      <node ref="J0" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="F1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="F2" pin="3"/>
+      <node ref="H1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="F4" pin="3"/>
+      <node ref="F5" pin="3"/>
+      <node ref="C11" pin="2"/>
+      <node ref="F3" pin="3"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="TP_GND1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="H4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="TP_3v3" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Y1-Pad1)">
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C7-Pad1)">
+      <node ref="Y1" pin="3"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="5" name="+12V">
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="TP7" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C10-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="10" name="Net-(F5-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="6"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="F5" pin="1"/>
+    </net>
+    <net code="11" name="Net-(F5-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="F5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(F4-Pad2)">
+      <node ref="TP3" pin="1"/>
+      <node ref="F4" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="14" name="/Y1">
+      <node ref="F2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="15" name="/Y2">
+      <node ref="U1" pin="5"/>
+      <node ref="F3" pin="1"/>
+    </net>
+    <net code="16" name="/Y3">
+      <node ref="U1" pin="7"/>
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(F1-Pad2)">
+      <node ref="TP0" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="J0" pin="2"/>
+    </net>
+    <net code="18" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(F3-Pad2)">
+      <node ref="F3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="TP2" pin="1"/>
+    </net>
+    <net code="20" name="/Y0">
+      <node ref="U1" pin="3"/>
+      <node ref="F1" pin="1"/>
+    </net>
+  </nets>
+</export>
