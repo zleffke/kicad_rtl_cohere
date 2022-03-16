@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name clock_dist_4chan-rescue)(type Legacy)(uri ${KIPRJMOD}/clock_dist_4chan-rescue.lib)(options "")(descr ""))
+)
